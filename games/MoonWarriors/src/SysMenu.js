@@ -9,7 +9,15 @@ var SysMenu = cc.Layer.extend({
             cc.SpriteFrameCache.getInstance().addSpriteFrames(s_textureTransparentPack_plist);
 
             winSize = cc.Director.getInstance().getWinSize();
-            var sp = cc.Sprite.create(s_loading);
+            // var sp = cc.Sprite.create(s_loading);
+
+            var testHigh = true;
+//            var testHigh = false;
+            if (testHigh)
+                var sp = cc.Sprite.create(s_high_resolution_bg);
+            else
+                var sp = cc.Sprite.create(s_low_resolution_bg);
+
             sp.setAnchorPoint(cc.p(0,0));
             this.addChild(sp, 0, 1);
 

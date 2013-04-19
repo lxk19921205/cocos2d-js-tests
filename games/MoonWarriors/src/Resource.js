@@ -2,6 +2,8 @@ var dirImg = "res/";
 var dirMusic = "res/Music/";
 
 //image
+var s_high_resolution_bg = dirImg + "640_960.png";
+var s_low_resolution_bg = dirImg + "320_480.png";
 var s_loading = dirImg + "loading.png";
 var s_menu = dirImg + "menu.png";
 var s_logo = dirImg + "logo.png";

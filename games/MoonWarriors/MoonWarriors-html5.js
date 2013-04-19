@@ -35,6 +35,7 @@ var MW = MW || {};
         showFPS:true,
         loadExtension:true,
         frameRate:60,
+        renderMode: 1,  // TODO: just use canvas, only for testing UTILIZING_HIGH_RESOLUTION
         tag:'gameCanvas', //the dom element to run cocos2d on
         engineDir:'../../../cocos2d/',
         appFiles:[
